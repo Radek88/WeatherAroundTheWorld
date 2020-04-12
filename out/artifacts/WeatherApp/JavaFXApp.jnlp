@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXApp.jnlp">
+  <information>
+    <title>WeatherApp</title>
+    <vendor>Unknown</vendor>
+    <description>WeatherApp</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXApp.jar" size="36040" download="eager" />
+    <jar href="commons-codec-1.11.jar" size="335042" download="eager" />
+    <jar href="commons-logging-1.2.jar" size="61829" download="eager" />
+    <jar href="controlsfx-11.0.1.jar" size="946879" download="eager" />
+    <jar href="fluent-hc-4.5.12.jar" size="31548" download="eager" />
+    <jar href="gson-2.8.6.jar" size="240255" download="eager" />
+    <jar href="httpclient-4.5.12.jar" size="778156" download="eager" />
+    <jar href="httpclient-cache-4.5.12.jar" size="164069" download="eager" />
+    <jar href="httpclient-osgi-4.5.12.jar" size="1368597" download="eager" />
+    <jar href="httpclient-win-4.5.12.jar" size="17853" download="eager" />
+    <jar href="httpcore-4.4.13.jar" size="328593" download="eager" />
+    <jar href="httpmime-4.5.12.jar" size="41792" download="eager" />
+    <jar href="jna-4.5.2.jar" size="1484022" download="eager" />
+    <jar href="jna-platform-4.5.2.jar" size="2327597" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="sample.Main"  name="WeatherApp" />
+  <update check="background"/>
+</jnlp>

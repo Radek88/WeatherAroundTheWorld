@@ -12,6 +12,5 @@
     <orderEntry type="library" name="gson-2.8.6" level="project" />
     <orderEntry type="library" name="controlsfx-11.0.1" level="project" />
     <orderEntry type="library" name="aquafx-0.1" level="project" />
-    <orderEntry type="library" name="lombok" level="project" />
   </component>
 </module>

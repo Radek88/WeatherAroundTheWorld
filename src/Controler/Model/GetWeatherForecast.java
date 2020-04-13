@@ -4,7 +4,7 @@ import Controler.Model.WeatherForecastFromHttp.WeatherForecast;
 import View.Alerts;
 import com.google.gson.Gson;
 import org.apache.http.HttpEntity;
-import org.apache.http.client.ClientProtocolException;
+
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
@@ -19,14 +19,7 @@ public class GetWeatherForecast{
     private Integer woeidNO;
     private String uri;
 
-    public static void main(String[] args) {
-        //GetWeatherForecast getWeatherForecast = new GetWeatherForecast("523920");
-        //getWeatherForecast.sendGetAndReturnRespond();
-        //WeatherForecast weatherForecast = getWeatherForecast.mapWeatherForecastToJavaClass();
-        //System.out.println( weatherForecast.getConsolidatedWeather().get(0).getCreated());
 
-
-    }
 
     public GetWeatherForecast(Integer woeidNO) {
         this.woeidNO = woeidNO;

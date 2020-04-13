@@ -3,22 +3,30 @@
     <output-path>$PROJECT_DIR$/out/artifacts/WeatherApp</output-path>
     <properties id="javafx-properties">
       <options>
-        <option name="appClass" value="sample.Main" />
+        <option name="appClass" value="Controler.Main" />
+        <option name="convertCss2Bin" value="true" />
         <option name="description" value="" />
         <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="linuxIcon" value="$PROJECT_DIR$/Icon .png" />
+            <option name="windowsIcon" value="$PROJECT_DIR$/Icon.ico" />
+          </JavaFxApplicationIcons>
+        </option>
         <option name="nativeBundle" value="exe" />
-        <option name="title" value="" />
+        <option name="title" value="Weather forecast around the world" />
         <option name="vendor" value="" />
-        <option name="version" value="" />
+        <option name="version" value="1.0" />
       </options>
     </properties>
     <root id="root">
       <element id="archive" name="JavaFXApp.jar">
         <element id="module-output" name="WeatherApp" />
+        <element id="library" level="project" name="aquafx-0.1" />
+        <element id="library" level="project" name="controlsfx-11.0.1" />
+        <element id="library" level="project" name="gson-2.8.6" />
+        <element id="library" level="project" name="lib" />
       </element>
-      <element id="library" level="project" name="lib" />
-      <element id="library" level="project" name="gson-2.8.6" />
-      <element id="library" level="project" name="controlsfx-11.0.1" />
     </root>
   </artifact>
 </component>
